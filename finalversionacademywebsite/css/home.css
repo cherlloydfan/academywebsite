@@ -1,0 +1,630 @@
+header {
+  padding: 40px 0px 40px 0px;
+  border-bottom: 1px solid black;
+}
+
+
+
+
+
+.list-group a {
+  font-size: 0.85rem;
+  border: none;
+  line-height: 0.8rem;
+}
+
+
+
+
+
+
+html,
+body {
+
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+
+}
+
+.navbar-nav a {
+
+  font-size: 0.95rem;
+
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 570px;
+
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+
+footer {
+  background-color: #D7DDFF;
+  color: #000;
+  padding: 10px;
+
+}
+
+footer ul li {
+  padding: 1px;
+}
+
+.adress span,
+.contact span,
+.social span {
+  color: #000;
+
+  text-decoration: underline;
+  margin-bottom: 10px;
+  display: block;
+
+  font-size: 9px;
+
+}
+
+.adress li p,
+.contact li a,
+.social li a {
+  color: #000;
+
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.social li {
+  float: left;
+}
+
+.adress,
+.contact,
+.social {
+  list-style: none;
+}
+
+.fa {
+  color: #9c9c9c;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  /* .row.content {
+    height: auto;
+  }*/
+
+}
+
+
+#background {
+
+  width: 100%;
+  height: 1400px;
+  margin-top: 0px;
+  background-image: url('../images/HOME.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+
+}
+
+@media (min-width:320px) {
+  #background1 {
+
+    margin-top: 0px;
+    background-image: url('../images/LOGINmobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+  }
+
+}
+
+@media (min-width: 320px) {
+  #title1 {
+    font-size: 14pt;
+    position: absolute;
+    top: 800px;
+
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 980px;
+    left: 80px;
+
+
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1080px;
+    left: 80px;
+
+
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1190px;
+    left: 80px;
+
+
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+
+  #background {
+    background-image: url('../images/HOMEmobile.png');
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 2900px;
+    margin-top: 0px;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1600px;
+
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1900px;
+
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
+
+@media (min-width: 375px) {
+  #title1 {
+    font-size: 14pt;
+    position: absolute;
+    top: 900px;
+    left: 45px
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1125px;
+    left: 93px;
+
+
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1260px;
+    left: 93px;
+
+
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1390px;
+    left: 93px;
+
+
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+
+  #background {
+    background-image: url('../images/HOMEmobile.png');
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 3400px;
+    margin-top: 0px;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1900px;
+
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 2160px;
+
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
+
+@media (min-width: 425px) {
+  #title1 {
+    font-size: 14pt;
+    position: absolute;
+    top: 1050px;
+    left: 63px
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1280px;
+    left: 110px;
+
+
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1435px;
+    left: 110px;
+
+
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1570px;
+    left: 110px;
+
+
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+
+  #background {
+    background-image: url('../images/HOMEmobile.png');
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 3800px;
+    margin-top: 0px;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 2100px;
+
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 2380px;
+
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav a {
+
+    font-size: 0.85rem;
+
+  }
+
+  #title1 {
+    font-size: 14pt;
+    position: absolute;
+    top: 300px;
+    left: 250px
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 630px;
+    left: 120px;
+    width: 150px
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 630px;
+    left: 320px;
+    width: 150px
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 630px;
+    left: 520px;
+    width: 150px
+  }
+
+  li {
+    font-size: 12pt;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+  #background {
+    width: 768px;
+    height: 1400px;
+    margin-top: 0px;
+    background-image: url('../images/HOME.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1000px;
+    width: 300px;
+    left: 100px
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1000px;
+    width: 300px;
+    left: 400px
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #title1 {
+    font-size: 16pt;
+    position: absolute;
+    top: 450px;
+    left: 350px
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 830px;
+    left: 170px;
+    width: 150px
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 830px;
+    left: 440px;
+    width: 150px
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 830px;
+    left: 720px;
+    width: 150px
+  }
+
+  li {
+    font-size: 12pt;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+  #background {
+    width: 1024px;
+    height: 1900px;
+    margin-top: 0px;
+    background-image: url('../images/HOME.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1350px;
+    width: 300px;
+    left: 100px
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1350px;
+    width: 300px;
+    left: 500px
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
+
+@media (min-width: 1440px) {
+  #title1 {
+    font-size: 16pt;
+    position: absolute;
+    top: 600px;
+    left: 450px
+  }
+
+  #lorem1new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1170px;
+    left: 240px;
+    width: 150px
+  }
+
+  #lorem2new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1170px;
+    left: 630px;
+    width: 150px
+  }
+
+  #lorem3new {
+    font-size: 8pt;
+    position: absolute;
+    top: 1170px;
+    left: 1020px;
+    width: 150px
+  }
+
+  li {
+    font-size: 12pt;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 10pt;
+  }
+
+  #background {
+    width: 1440px;
+    height: 2600px;
+    margin-top: 0px;
+    background-image: url('../images/HOME.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+    background-size: cover;
+    background-position: top;
+  }
+
+  #students1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1900px;
+    width: 300px;
+    left: 200px
+  }
+
+  #tutors1 {
+    font-size: 12px;
+    position: absolute;
+    top: 1900px;
+    width: 300px;
+    left: 700px
+  }
+
+
+  #moreinfo {
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 2px 2px white;
+  }
+}
